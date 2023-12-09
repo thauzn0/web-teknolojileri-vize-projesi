@@ -20,6 +20,9 @@
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
         <q-item clickable @click="toggleComponent('MyHeader')">Header </q-item>
+        <q-item clickable @click="toggleComponent('InfiniteCarousel')"
+          >Carousel
+        </q-item>
       </q-list>
     </q-drawer>
 

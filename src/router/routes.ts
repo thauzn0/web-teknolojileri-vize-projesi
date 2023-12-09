@@ -15,6 +15,11 @@ const routes: RouteRecordRaw[] = [
         name: 'MyHeader',
         component: () => import('components/MyHeader.vue'),
       },
+      {
+        path: 'InfiniteCarousel',
+        name: 'InfiniteCarousel',
+        component: () => import('components/InfiniteCarousel.vue'),
+      },
     ],
   },
   {
