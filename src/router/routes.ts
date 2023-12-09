@@ -20,6 +20,11 @@ const routes: RouteRecordRaw[] = [
         name: 'InfiniteCarousel',
         component: () => import('components/InfiniteCarousel.vue'),
       },
+      {
+        path: 'BushidoDesc',
+        name: 'BushidoDesc',
+        component: () => import('components/BushidoDesc.vue'),
+      },
     ],
   },
   {

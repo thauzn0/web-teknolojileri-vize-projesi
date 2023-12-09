@@ -23,6 +23,9 @@
         <q-item clickable @click="toggleComponent('InfiniteCarousel')"
           >Carousel
         </q-item>
+        <q-item clickable @click="toggleComponent('BushidoDesc')"
+          >BushidoDesc
+        </q-item>
       </q-list>
     </q-drawer>
 
