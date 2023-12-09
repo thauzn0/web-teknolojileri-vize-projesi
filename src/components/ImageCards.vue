@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import TheCard from './TheCard.vue';
 
 export default {

@@ -35,6 +35,11 @@ const routes: RouteRecordRaw[] = [
         name: 'BottomCards',
         component: () => import('components/BottomCards.vue'),
       },
+      {
+        path: 'MyFooter',
+        name: 'MyFooter',
+        component: () => import('components/MyFooter.vue'),
+      },
     ],
   },
   {

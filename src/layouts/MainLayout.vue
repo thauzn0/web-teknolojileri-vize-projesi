@@ -11,7 +11,9 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title>Quasar App</q-toolbar-title>
+        <q-toolbar-title
+          >Componentları görmek için soldaki tuşa basın</q-toolbar-title
+        >
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -33,6 +35,7 @@
           >BottomCards
         </q-item>
       </q-list>
+      <q-item clickable @click="toggleComponent('MyFooter')">Footer </q-item>
     </q-drawer>
 
     <q-page-container>
