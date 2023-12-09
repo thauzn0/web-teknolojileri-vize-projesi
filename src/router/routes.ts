@@ -25,6 +25,16 @@ const routes: RouteRecordRaw[] = [
         name: 'BushidoDesc',
         component: () => import('components/BushidoDesc.vue'),
       },
+      {
+        path: 'ImageCards',
+        name: 'ImageCards',
+        component: () => import('components/ImageCards.vue'),
+      },
+      {
+        path: 'BottomCards',
+        name: 'BottomCards',
+        component: () => import('components/BottomCards.vue'),
+      },
     ],
   },
   {

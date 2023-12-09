@@ -26,6 +26,12 @@
         <q-item clickable @click="toggleComponent('BushidoDesc')"
           >BushidoDesc
         </q-item>
+        <q-item clickable @click="toggleComponent('ImageCards')"
+          >ImageCards
+        </q-item>
+        <q-item clickable @click="toggleComponent('BottomCards')"
+          >BottomCards
+        </q-item>
       </q-list>
     </q-drawer>
 
