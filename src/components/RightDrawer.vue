@@ -28,7 +28,6 @@
             style="height: fit-content; width: fit-content"
           />
         </div>
-        <!-- Sepet içeriği -->
 
         <q-img
           src="../assets/shopping-cart5929.jpg"

@@ -43,6 +43,9 @@
       </q-item>
       <q-item clickable @click="toggleComponent('TheSSS')">TheSSS </q-item>
       <q-item clickable @click="toggleComponent('TheLogin')">TheLogin </q-item>
+      <q-item clickable @click="toggleComponent('TheCommunication')"
+        >TheCommunication
+      </q-item>
     </q-drawer>
 
     <q-page-container>

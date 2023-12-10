@@ -1,10 +1,7 @@
 <template>
   <div class="search-overlay q-pa-md">
     <div class="flex justify-between items-center">
-      <!-- Your logo or any other content goes here -->
-      <div class="logo relative">
-        <!-- Your logo content goes here -->
-      </div>
+      <div class="logo relative"></div>
 
       <div class="w-full mr-2 relative">
         <q-input
@@ -13,25 +10,15 @@
           placeholder="Ne aramıştınız?"
           @keydown.enter="performSearch"
         />
-        <span class="overlay-search-icon" @click="performSearch">
-          <!-- Your search icon SVG goes here -->
-        </span>
+        <span class="overlay-search-icon" @click="performSearch"> </span>
       </div>
 
-      <!-- Close icon -->
       <div>
-        <span class="overlay-close-icon" @click="closeSearch">
-          <!-- Your close icon SVG goes here -->
-        </span>
+        <span class="overlay-close-icon" @click="closeSearch"> </span>
       </div>
     </div>
 
-    <!-- Additional content goes here -->
-
-    <!-- Category products or other content -->
-    <div class="flex-1 mt-4 category-products-main">
-      <!-- Your category products or other content goes here -->
-    </div>
+    <div class="flex-1 mt-4 category-products-main"></div>
   </div>
 </template>
 
@@ -44,7 +31,6 @@ export default {
   },
   methods: {
     performSearch() {
-      // Handle search action
       console.log('Performing search:', this.searchQuery);
     },
     closeSearch() {

@@ -60,6 +60,11 @@ const routes: RouteRecordRaw[] = [
         name: 'TheLogin',
         component: () => import('components/TheLogin.vue'),
       },
+      {
+        path: 'TheCommunication',
+        name: 'TheCommunication',
+        component: () => import('components/TheCommunication.vue'),
+      },
     ],
   },
   {

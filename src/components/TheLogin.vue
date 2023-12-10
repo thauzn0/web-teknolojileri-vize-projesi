@@ -12,11 +12,29 @@
 
       <ButtonGroup
         @button-click="login"
-        @forgot-password-click="forgotPassword"
-        button-label="Üye Girişi"
-        :show-forgot-password="true"
-      />
+        :button-label="'Üye Girişi'"
+        class="login-button"
+        style="
+          height: 50px;
+          width: 150px;
+          color: white;
+          margin-left: 10px;
+          align-items: first baseline;
+        "
+      ></ButtonGroup>
     </q-card>
+    <ButtonGroup
+      @button-click="login"
+      :button-label="'Parolamı Unuttum'"
+      class="login-button"
+      style="
+        height: 50px;
+        width: 220px;
+        color: white;
+        margin-left: 10px;
+        align-items: first baseline;
+      "
+    ></ButtonGroup>
   </q-page>
 </template>
 

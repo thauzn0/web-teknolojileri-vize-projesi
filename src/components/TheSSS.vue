@@ -1,5 +1,3 @@
-<!-- MainPage.vue -->
-
 <template>
   <q-page style="background-color: black">
     <div class="row">

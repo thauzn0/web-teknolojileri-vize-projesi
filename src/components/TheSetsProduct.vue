@@ -1,4 +1,3 @@
-<!-- Carousel.vue -->
 <template>
   <q-responsive
     :ratio="16 / 9"
@@ -80,13 +79,12 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue';
 
 const slide = ref(1);
 const isMouseOver = ref(false);
-
-// Veriyi tanımla (örneğin resim URL'leri)
+const showSize = ref(false);
 const images = ref(['../src/assets/a1.webp', '../src/assets/a2.webp']);
 
 const onMouseOver = () => {
@@ -99,7 +97,3 @@ const onMouseLeave = () => {
   slide.value = 1;
 };
 </script>
-
-<style scoped>
-/* Add any scoped styles if needed */
-</style>
