@@ -50,6 +50,11 @@ const routes: RouteRecordRaw[] = [
         name: 'TheComment',
         component: () => import('components/TheCommentMainPage.vue'),
       },
+      {
+        path: 'TheSSS',
+        name: 'TheSSS',
+        component: () => import('components/TheSSS.vue'),
+      },
     ],
   },
   {
