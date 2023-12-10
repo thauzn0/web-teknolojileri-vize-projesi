@@ -40,6 +40,31 @@ const routes: RouteRecordRaw[] = [
         name: 'MyFooter',
         component: () => import('components/MyFooter.vue'),
       },
+      {
+        path: 'TheSets',
+        name: 'TheSets',
+        component: () => import('components/TheSets.vue'),
+      },
+      {
+        path: 'TheComment',
+        name: 'TheComment',
+        component: () => import('components/TheCommentMainPage.vue'),
+      },
+      {
+        path: 'TheSSS',
+        name: 'TheSSS',
+        component: () => import('components/TheSSS.vue'),
+      },
+      {
+        path: 'TheLogin',
+        name: 'TheLogin',
+        component: () => import('components/TheLogin.vue'),
+      },
+      {
+        path: 'TheCommunication',
+        name: 'TheCommunication',
+        component: () => import('components/TheCommunication.vue'),
+      },
     ],
   },
   {
