@@ -40,6 +40,11 @@ const routes: RouteRecordRaw[] = [
         name: 'MyFooter',
         component: () => import('components/MyFooter.vue'),
       },
+      {
+        path: 'TheSets',
+        name: 'TheSets',
+        component: () => import('components/TheSets.vue'),
+      },
     ],
   },
   {
