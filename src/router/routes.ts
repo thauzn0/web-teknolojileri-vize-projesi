@@ -45,6 +45,11 @@ const routes: RouteRecordRaw[] = [
         name: 'TheSets',
         component: () => import('components/TheSets.vue'),
       },
+      {
+        path: 'TheComment',
+        name: 'TheComment',
+        component: () => import('components/TheCommentMainPage.vue'),
+      },
     ],
   },
   {

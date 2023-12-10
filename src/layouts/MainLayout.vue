@@ -38,6 +38,9 @@
       <q-item clickable @click="toggleComponent('MyFooter')">Footer </q-item>
 
       <q-item clickable @click="toggleComponent('TheSets')">TheSets </q-item>
+      <q-item clickable @click="toggleComponent('TheComment')"
+        >TheComment
+      </q-item>
     </q-drawer>
 
     <q-page-container>
