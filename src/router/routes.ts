@@ -55,6 +55,11 @@ const routes: RouteRecordRaw[] = [
         name: 'TheSSS',
         component: () => import('components/TheSSS.vue'),
       },
+      {
+        path: 'TheLogin',
+        name: 'TheLogin',
+        component: () => import('components/TheLogin.vue'),
+      },
     ],
   },
   {

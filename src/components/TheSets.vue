@@ -25,10 +25,8 @@
   </q-page>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import TheProduct from './TheSetsProduct.vue';
 </script>
 
-<style scoped>
-/* Add any scoped styles if needed */
-</style>
+<style scoped></style>
